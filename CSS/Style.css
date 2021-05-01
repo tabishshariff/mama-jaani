@@ -1,0 +1,51 @@
+body {
+    background-color:blue;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0%;
+}
+
+h1 {
+    font-size: 500%;
+    text-align: center;
+}
+
+.container {
+    background-color: blue;
+}
+
+.picture-container {
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 5, 51);
+}
+
+.call-container {
+    margin: auto;
+    width: 100px;
+    margin-bottom: 50px;
+}
+
+.picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 300px;
+    border-width: 8px;
+    border-color: rgb(233, 235, 252);
+    border-style: solid;
+    border-radius: 50%;
+
+}
+
+.picture {
+    transition: border 5ms linear;
+}
+
+.picture:hover{
+    border-color: blue;
+    border-radius: 50%;
+}
